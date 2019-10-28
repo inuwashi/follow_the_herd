@@ -44,7 +44,7 @@ if not root_id:
 print(f'Getting data for status {root_id}')
 root_status = api.get_status(root_id)
 
-url  = f"https://twitter.com/{root_status.user.screen_name}/status/{root_status.id}"
+url = f"https://twitter.com/{root_status.user.screen_name}/status/{root_status.id}"
 print(url)
 
 print(f'Getting retwitters for status {root_id}')
